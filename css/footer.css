@@ -5,8 +5,13 @@
 }
 
 .footer .container {
+  display: flex;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.footer-left-block {
+  margin-right: 120px;
 }
 
 .footer-link {
@@ -32,4 +37,9 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+.footer p {
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
