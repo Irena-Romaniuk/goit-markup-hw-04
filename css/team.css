@@ -62,7 +62,7 @@
   display: flex;
   gap: 24px;
 }
-.social-link {
+.social-list-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,9 +70,15 @@
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-  color: #f4f4fd;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link:hover {
+
+.social-link {
+  color: #f4f4fd;
+}
+
+.social-link:hover,
+.social-link:focus {
   background-color: #404bbf;
 }

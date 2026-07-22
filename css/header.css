@@ -38,10 +38,18 @@
   display: flex;
   gap: 40px;
 }
+
+.header-list-item {
+  position: relative;
+}
+
 .underline {
+  color: #404bbf;
 }
 
 .underline::after {
+  position: absolute;
+  top: calc(100% - 4px);
   content: '';
   display: block;
   width: 100%;
